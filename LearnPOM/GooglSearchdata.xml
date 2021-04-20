@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" > 
+
+
+	
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<parameter name="author" value="Lily" />
+		<parameter name="searchKey" value="Toronto" />
+		<classes>
+			<class name="TestCases.TC_SearchGoogle" >
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="author" value="Lily" />
+		<parameter name="searchKey" value="Toronto" />
+		<classes>
+			<class name="TestCases.TC_SearchGoogle" >
+			</class>
+		</classes>
+	</test>
+		
+</suite>

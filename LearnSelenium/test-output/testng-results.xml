@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-16T20:58:42 EDT" name="Default suite" finished-at="2021-03-16T20:58:56 EDT" duration-ms="13821">
+    <groups>
+    </groups>
+    <test started-at="2021-03-16T20:58:42 EDT" name="Default test" finished-at="2021-03-16T20:58:56 EDT" duration-ms="13821">
+      <class name="LearnSelenium.LearnTestNG">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:LearnSelenium.LearnTestNG@2a32de6c]" started-at="2021-03-16T20:58:42 EDT" name="launchBrowser" finished-at="2021-03-16T20:58:54 EDT" duration-ms="11905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="start_Homepage()[pri:0, instance:LearnSelenium.LearnTestNG@2a32de6c]" started-at="2021-03-16T20:58:54 EDT" name="start_Homepage" finished-at="2021-03-16T20:58:54 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_Homepage -->
+        <test-method signature="check_Title()[pri:1, instance:LearnSelenium.LearnTestNG@2a32de6c]" started-at="2021-03-16T20:58:54 EDT" name="check_Title" finished-at="2021-03-16T20:58:54 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Title -->
+        <test-method signature="click_Elements()[pri:2, instance:LearnSelenium.LearnTestNG@2a32de6c]" started-at="2021-03-16T20:58:54 EDT" name="click_Elements" finished-at="2021-03-16T20:58:55 EDT" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_Elements -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:LearnSelenium.LearnTestNG@2a32de6c]" started-at="2021-03-16T20:58:55 EDT" name="terminateBrowser" finished-at="2021-03-16T20:58:56 EDT" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- LearnSelenium.LearnTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
