@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Environment">
+
+
+
+	<test name="QA_Env">
+
+		<parameter name="url" value="http://automationpractice.com" />
+		<classes>
+			<class name="tests.TestBase" />
+
+		</classes>
+	</test>
+
+
+	<test name="Product_Env">
+
+		<parameter name="url" value="http://google.com" />
+		<classes>
+			<class name="tests.TestBase" />
+
+		</classes>
+	</test>
+
+
+
+
+</suite>
